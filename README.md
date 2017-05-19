@@ -15,8 +15,8 @@ Conditionals:
     >
     
 ## Processing
-To process the file \<input\>, do:
+To process the file `<input>`, do:
 
     perl mfpp.pl <input>
 
-Once mfpp finishes executing, copy the main function file, `<input>.mcfunction`, anywhere in the world's function folder, and copy the auxiliary files into the world's `mfpp` namespace.
+Once mfpp finishes executing, copy the main function file, `<input>.mcfunction`, anywhere in the world's function folder, and copy the auxiliary files (`<input>.<some number>.mcfunction`) into the world's `mfpp` namespace.
