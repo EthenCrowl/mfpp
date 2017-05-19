@@ -3,7 +3,7 @@ A preprocessor for [Minecraft functions](http://minecraft.gamepedia.com/Function
 
 mfpp is still in alpha, planned features include improved macros, recursion, and other time-saving devices.
 
-# Syntax
+## Syntax
 
 Conditionals:
 
