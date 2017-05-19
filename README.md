@@ -1,7 +1,7 @@
 # mfpp
 A preprocessor for [Minecraft functions](http://minecraft.gamepedia.com/Function)
 
-mfpp is still in alpha, planned features include macros and other time-saving devices.
+mfpp is still in alpha, planned features include improved macros, recursion, and other time-saving devices.
 
 # Syntax
 
@@ -13,6 +13,14 @@ Conditionals:
     else <
         ...
     >
+
+Macros:
+
+    define macroname <
+        ...
+    >
+    ...
+    <macroname>
     
 ## Processing
 To process the file `<input>`, do:
